@@ -11,12 +11,13 @@ Here I'll put any repos that I'm interested in.
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
 - [Unigram](https://github.com/UnigramDev/Unigram) - fancy Telegram app for windows
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client in Qt
+- [FluidX3D](https://github.com/ProjectPhysX/FluidX3D) - the fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs via OpenCL
 
 ## Libs
 - `C`
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
 - `C++`
-  - 
+  - [Dear ImGui](https://github.com/ocornut/imgui) - powerfull graphical user interface library
 - `Python`
   - [DearPyGui](https://github.com/hoffstadt/DearPyGui) - modern, fast and powerful GUI framework for Python based on ImGui
   - [tqdm](https://github.com/tqdm/tqdm) - fast, extensible progress bar for Python and CLI
