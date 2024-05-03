@@ -6,7 +6,7 @@ Here I'll put any repos that I'm interested in.
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - powerfull tool to upscale anime / manga pictures and video (if u try hard enough)
 - [HakuNeko](https://github.com/manga-download/hakuneko) - downloader for manga books
 
-# Libs
+## Libs
 - `C`
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
 
