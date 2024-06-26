@@ -11,6 +11,7 @@ Here I'll put any repos that I'm interested in.
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client in Qt
 - [QuickLook](https://github.com/QL-Win/QuickLook) - Quick preview of files for Windows, just hold <kbd>Space</kbd>
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - powerfull tool to upscale anime / manga pictures and video (if u try hard enough)
+- [scn2](http://www.steffengerlach.de/freeware/) - this tool uses a sunburst chart to display the usage of your hard disk or other media
 - [SpotX](https://github.com/SpotX-Official/SpotX) - Windows's Spotify client patcher
 - [Unigram](https://github.com/UnigramDev/Unigram) - fancy Telegram app for Windows
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
