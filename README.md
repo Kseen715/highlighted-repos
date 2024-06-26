@@ -4,6 +4,7 @@ Here I'll put any repos that I'm interested in.
 
 ## Interesting
 - [FluidX3D](https://github.com/ProjectPhysX/FluidX3D) - the fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs via OpenCL
+- [Filelight](https://github.com/KDE/filelight) - allows you to understand exactly where your diskspace is being used by graphically representating your filesystem as a set of concentric segmented-rings
 - [HakuNeko](https://github.com/manga-download/hakuneko) - downloader for manga books
 - [Metrics](https://github.com/lowlighter/metrics) - fancy metrics for ur GitHub profile
 - [Playnite](https://github.com/JosefNemec/Playnite) - aggregator of games from [all](https://playnite.link/addons.html) launchers
