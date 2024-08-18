@@ -6,6 +6,7 @@ Here I'll put any repos that I'm interested in.
 
 <div id="auto-sort-start"/>
 
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) - a neofetch-like tool for fetching system information and displaying it prettily
 - [Filelight](https://github.com/KDE/filelight) - allows you to understand exactly where your diskspace is being used by graphically representing your filesystem as a set of concentric segmented-rings
 - [FluidX3D](https://github.com/ProjectPhysX/FluidX3D) - the fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs via OpenCL
 - [HakuNeko](https://github.com/manga-download/hakuneko) - downloader for manga books
@@ -19,7 +20,6 @@ Here I'll put any repos that I'm interested in.
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client in Qt
 - [scn2](http://www.steffengerlach.de/freeware/) - this tool uses a sunburst chart to display the usage of your hard disk or other media
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
-- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) - a neofetch-like tool for fetching system information and displaying it prettily
 <div id="auto-sort-end"/>
 
 ## Libs 
@@ -41,12 +41,12 @@ Here I'll put any repos that I'm interested in.
 ## Homelab 
 <div id="auto-sort-start"/>
   
+- [Crafty Controller](https://gitlab.com/crafty-controller/crafty-4) - a Minecraft Server Control Panel / Launcher
 - [HandBrake](https://github.com/HandBrake/HandBrake) - best tool in fast video transcoding
+- [Pterodactyl Panel](https://github.com/pterodactyl/panel) - a free, open-source game server management panel
 - [TorrServer](https://github.com/YouROK/TorrServer) - mythical program that allows users to view torrents online without the need for preliminary file downloading
 - [WireGuard Easy](https://github.com/wg-easy/wg-easy) - fast & easy WireGuard installator (with comfy GUI)
 - [homarr](https://github.com/ajnart/homarr) - modern homelab dashboard
-- [Pterodactyl Panel](https://github.com/pterodactyl/panel) - a free, open-source game server management panel
-- [Crafty Controller](https://gitlab.com/crafty-controller/crafty-4) - a Minecraft Server Control Panel / Launcher
 <div id="auto-sort-end"/>
 
 ## Web-resources
