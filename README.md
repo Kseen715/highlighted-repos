@@ -2,7 +2,7 @@
 
 Here I'll put any repos that I'm interested in.
 
-## Interesting repos
+## Tools
 
 <div id="auto-sort-start"/>
 
@@ -19,6 +19,7 @@ Here I'll put any repos that I'm interested in.
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client in Qt
 - [scn2](http://www.steffengerlach.de/freeware/) - this tool uses a sunburst chart to display the usage of your hard disk or other media
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) - a neofetch-like tool for fetching system information and displaying it prettily
 <div id="auto-sort-end"/>
 
 ## Libs 
@@ -26,6 +27,7 @@ Here I'll put any repos that I'm interested in.
 
 - `C` <div id="auto-sort-start"/>
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
+  - [raylib](https://github.com/raysan5/raylib) - simple and easy-to-use library to enjoy videogames programming (with no external dependencies)
   <div id="auto-sort-end"/>
 - `C++` <div id="auto-sort-start"/>
   - [Dear ImGui](https://github.com/ocornut/imgui) - powerful graphical user interface library
@@ -43,6 +45,8 @@ Here I'll put any repos that I'm interested in.
 - [TorrServer](https://github.com/YouROK/TorrServer) - mythical program that allows users to view torrents online without the need for preliminary file downloading
 - [WireGuard Easy](https://github.com/wg-easy/wg-easy) - fast & easy WireGuard installator (with comfy GUI)
 - [homarr](https://github.com/ajnart/homarr) - modern homelab dashboard
+- [Pterodactyl Panel](https://github.com/pterodactyl/panel) - a free, open-source game server management panel
+- [Crafty Controller](https://gitlab.com/crafty-controller/crafty-4) - a Minecraft Server Control Panel / Launcher
 <div id="auto-sort-end"/>
 
 ## Web-resources
