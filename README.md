@@ -2,7 +2,7 @@
 
 Here I'll put any repos that I'm interested in.
 
-## Interesting
+## Interesting <div id="auto-sort-start"/>
 - [FluidX3D](https://github.com/ProjectPhysX/FluidX3D) - the fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs via OpenCL
 - [Filelight](https://github.com/KDE/filelight) - allows you to understand exactly where your diskspace is being used by graphically representing your filesystem as a set of concentric segmented-rings
 - [HakuNeko](https://github.com/manga-download/hakuneko) - downloader for manga books
@@ -16,21 +16,21 @@ Here I'll put any repos that I'm interested in.
 - [SpotX](https://github.com/SpotX-Official/SpotX) - Windows's Spotify client patcher
 - [Unigram](https://github.com/UnigramDev/Unigram) - fancy Telegram app for Windows
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
-
-## Libs
-- `C`
+<div id="auto-sort-end"/>
+  
+## Libs 
+- `C` <div id="auto-sort-start"/>
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
-- `C++`
+- `C++` <div id="auto-sort-end"/><div id="auto-sort-start"/>
   - [Dear ImGui](https://github.com/ocornut/imgui) - powerful graphical user interface library
-- `Python`
+- `Python` <div id="auto-sort-end"/><div id="auto-sort-start"/>
   - [DearPyGui](https://github.com/hoffstadt/DearPyGui) - modern, fast and powerful GUI framework for Python based on ImGui
   - [tqdm](https://github.com/tqdm/tqdm) - fast, extensible progress bar for Python and CLI
-
-## Homelab
+<div id="auto-sort-end"/>
+  
+## Homelab <div id="auto-sort-start"/>
 - [HandBrake](https://github.com/HandBrake/HandBrake) - best tool in fast video transcoding
 - [homarr](https://github.com/ajnart/homarr) - modern homelab dashboard
 - [TorrServer](https://github.com/YouROK/TorrServer) - mythical program that allows users to view torrents online without the need for preliminary file downloading
 - [WireGuard Easy](https://github.com/wg-easy/wg-easy) - fast & easy WireGuard installator (with comfy GUI)
-
-
-
+<div id="auto-sort-end"/>
