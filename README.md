@@ -2,7 +2,7 @@
 
 Here I'll put any repos that I'm interested in.
 
-## Interesting 
+## Interesting repos
 
 <div id="auto-sort-start"/>
 
@@ -43,4 +43,13 @@ Here I'll put any repos that I'm interested in.
 - [TorrServer](https://github.com/YouROK/TorrServer) - mythical program that allows users to view torrents online without the need for preliminary file downloading
 - [WireGuard Easy](https://github.com/wg-easy/wg-easy) - fast & easy WireGuard installator (with comfy GUI)
 - [homarr](https://github.com/ajnart/homarr) - modern homelab dashboard
+<div id="auto-sort-end"/>
+
+## Web-resources
+<div id="auto-sort-start"/>
+
+- [AppDevTools](https://appdevtools.com/) - random helpful tools for devs
+- [Markdown Live Preview](https://markdownlivepreview.com/) - it is what it says
+- [cidr.xyz](https://cidr.xyz/) - an interactive IP address and CIDR range visualizer
+- [iptool](https://iptool.io/) - helpful tools for IP management
 <div id="auto-sort-end"/>
