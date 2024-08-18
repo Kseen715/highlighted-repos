@@ -7,6 +7,8 @@
 # The script also creates a hash file for each README.md file to keep track of
 # changes. If the hash file is missing or the hash does not match, the script
 # will warn the user that the file has been modified.
+# 
+# v1.1.0
 
 
 import re, os, datetime, hashlib
