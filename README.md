@@ -3,13 +3,12 @@
 Here I'll put any repos that I'm interested in.
 
 ## Interesting 
+
 <div id="auto-sort-start"/>
-  
-  
+
 - [Filelight](https://github.com/KDE/filelight) - allows you to understand exactly where your diskspace is being used by graphically representing your filesystem as a set of concentric segmented-rings
 - [FluidX3D](https://github.com/ProjectPhysX/FluidX3D) - the fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs via OpenCL
 - [HakuNeko](https://github.com/manga-download/hakuneko) - downloader for manga books
-## Libs 
 - [Metrics](https://github.com/lowlighter/metrics) - fancy metrics for ur GitHub profile
 - [Playnite](https://github.com/JosefNemec/Playnite) - aggregator of games from [all](https://playnite.link/addons.html) launchers
 - [QuickLook](https://github.com/QL-Win/QuickLook) - Quick preview of files for Windows, just hold <kbd>Space</kbd>
@@ -21,6 +20,8 @@ Here I'll put any repos that I'm interested in.
 - [scn2](http://www.steffengerlach.de/freeware/) - this tool uses a sunburst chart to display the usage of your hard disk or other media
 - [vcsi](https://github.com/amietn/vcsi) - tool to generate video contact sheets (image composed of video capture thumbnails arranged on a grid)
 <div id="auto-sort-end"/>
+
+## Libs 
 - `C` <div id="auto-sort-start"/>
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
   <div id="auto-sort-end"/>
@@ -31,7 +32,7 @@ Here I'll put any repos that I'm interested in.
   - [DearPyGui](https://github.com/hoffstadt/DearPyGui) - modern, fast and powerful GUI framework for Python based on ImGui
   - [tqdm](https://github.com/tqdm/tqdm) - fast, extensible progress bar for Python and CLI
 <div id="auto-sort-end"/>
-  
+
 ## Homelab 
 <div id="auto-sort-start"/>
   

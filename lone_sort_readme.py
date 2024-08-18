@@ -269,7 +269,7 @@ def sort_readme(file_path: str):
             i += 1
             start = i
             while i < len(readme) \
-                and not '<div id="auto-sort-start"/>' in readme[i]:
+                and not '<div id="auto-sort-end"/>' in readme[i]:
                 i += 1
             end = i
             # Sort lines ignoring symbols
