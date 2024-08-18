@@ -22,6 +22,8 @@ Here I'll put any repos that I'm interested in.
 <div id="auto-sort-end"/>
 
 ## Libs 
+<div id="auto-sort-start"/>
+
 - `C` <div id="auto-sort-start"/>
   - [argparse](https://github.com/cofyc/argparse) - Python's argparse implementation for C
   <div id="auto-sort-end"/>
@@ -31,6 +33,7 @@ Here I'll put any repos that I'm interested in.
 - `Python` <div id="auto-sort-start"/>
   - [DearPyGui](https://github.com/hoffstadt/DearPyGui) - modern, fast and powerful GUI framework for Python based on ImGui
   - [tqdm](https://github.com/tqdm/tqdm) - fast, extensible progress bar for Python and CLI
+  <div id="auto-sort-end"/>
 <div id="auto-sort-end"/>
 
 ## Homelab 

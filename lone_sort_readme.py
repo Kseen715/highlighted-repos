@@ -261,26 +261,46 @@ def sort_readme(file_path: str):
     with open(file_path, 'r') as f:
         readme = f.readlines()
     
-    sorted_readme = []
-    i = 0
-    while i < len(readme):
-        if '<div id="auto-sort-start"/>' in readme[i]:
-            sorted_readme.append(readme[i])
-            i += 1
-            start = i
-            while i < len(readme) \
-                and not '<div id="auto-sort-end"/>' in readme[i]:
+    def sort_block(lines):
+        sorted_lines = []
+        i = 0
+        while i < len(lines):
+            if '<div id="auto-sort-start"/>' in lines[i]:
+                sorted_lines.append(lines[i])
                 i += 1
-            end = i
-            # Sort lines ignoring symbols
-            lines_to_sort = readme[start:end]
-            sorted_lines = sorted(lines_to_sort, \
-                                  key=lambda line: \
-                                    re.sub(r'[^a-zA-Z0-9\s]', '', line))
-            sorted_readme.extend(sorted_lines)
-        if i < len(readme):
-            sorted_readme.append(readme[i])
-        i += 1
+                start = i
+                nested_blocks = []
+                while i < len(lines) and not '<div id="auto-sort-end"/>' in lines[i]:
+                    if '<div id="auto-sort-start"/>' in lines[i]:
+                        nested_start = i
+                        while i < len(lines) and not '<div id="auto-sort-end"/>' in lines[i]:
+                            i += 1
+                        nested_end = i
+                        nested_blocks.append((nested_start, nested_end))
+                    i += 1
+                end = i
+                if nested_blocks:
+                    # Sort entire nested blocks
+                    blocks_to_sort = [lines[start:nested_blocks[0][0]]]
+                    for j in range(len(nested_blocks)):
+                        blocks_to_sort.append(lines[nested_blocks[j][0]:nested_blocks[j][1]+1])
+                        if j < len(nested_blocks) - 1:
+                            blocks_to_sort.append(lines[nested_blocks[j][1]+1:nested_blocks[j+1][0]])
+                    blocks_to_sort.append(lines[nested_blocks[-1][1]+1:end])
+                    sorted_blocks = sorted(blocks_to_sort, key=lambda block: re.sub(r'[^a-zA-Z0-9\s+\-*/=%^()]', '', ''.join(block)))
+                    for block in sorted_blocks:
+                        sorted_lines.extend(block)
+                else:
+                    # Sort lines within the block
+                    lines_to_sort = lines[start:end]
+                    sorted_lines.extend(sorted(lines_to_sort, key=lambda line: re.sub(r'[^a-zA-Z0-9\s+\-*/=%^()]', '', line)))
+                sorted_lines.append(lines[end])
+            else:
+                sorted_lines.append(lines[i])
+            i += 1
+        return sorted_lines
+    
+    sorted_readme = sort_block(readme)
     
     with open(file_path, 'w') as f:
         f.writelines(sorted_readme)
